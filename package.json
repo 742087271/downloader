@@ -1,12 +1,20 @@
 {
   "name": "downloader",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "description": "downloader",
+  "author": "zhuxiaoxin",
+  "license": "MIT",
+  "main": "dist/downloader.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
